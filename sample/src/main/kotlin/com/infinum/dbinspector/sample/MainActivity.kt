@@ -2,6 +2,7 @@ package com.infinum.dbinspector.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.infinum.dbinspector.BuildConfig
 import com.infinum.dbinspector.logger.AndroidLogger
 import com.infinum.dbinspector.DbInspector
 import com.infinum.dbinspector.sample.databinding.ActivityMainBinding
