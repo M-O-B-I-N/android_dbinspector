@@ -42,6 +42,13 @@ afterEvaluate {
                 artifact javadocsJar
                 artifact sourcesJar
 
+                release(MavenPublication) {
+                    from components.release
+                    groupId = 'com.github.M-O-B-I-N'
+                    artifactId = 'android_dbinspector'
+                    version = '5.0.0'
+                }
+
                 pom {
                     name = "Android DbInspector"
                     description = "Android library for viewing in app databases."
